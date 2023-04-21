@@ -62,23 +62,23 @@ a {
     line-height: 1.26;
 }
 
-/* .desc {
+.desc {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 1.67;
     color: var(--desc-color);
-}
+} 
 
-.line-clamp {
+/* .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 1);
     -webkit-box-orient: vertical;
     overflow: hidden;
-} */
+}
 
 .line-clamp.line-desc {
     --line-clamp: 2;
-} 
+}  */
 /* Header */
 .header {
     background-color: var(--bg-color);
