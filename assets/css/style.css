@@ -14,6 +14,7 @@ body {
 :root {
     --primary-color: #ffb900;
     --secondary-color: #171100;
+    --session-bg-color: #2e2100;
     --desc-color: #5f5b53;
     --bg-color: #fffcf4;
     --font-heading: "Sen", sans-serif;
@@ -67,7 +68,7 @@ a {
     font-size: 1.8rem;
     line-height: 1.67;
     color: var(--desc-color);
-} 
+}
 
 /* .line-clamp {
     display: -webkit-box;
@@ -325,7 +326,7 @@ a {
 .popular .course-item {
     border-radius: 12px;
     flex: 1;
-    border: 1px solid #E2DFDA;
+    border: 1px solid #e2dfda;
 }
 
 .popular .course-item .thumb {
@@ -402,3 +403,87 @@ a {
     padding: 12px 24px;
     border: none;
 }
+
+/* Testimonial */
+.testimonial {
+    background-color: var(--session-bg-color);
+    padding: 96px 135px;
+}
+
+.testimonial .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial .student-info {
+    justify-content: flex-start;
+    width: 159px;
+}
+
+.testimonial .student-info .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.testimonial .student-info .name {
+    margin-top: 18px;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #f7f7f7;
+}
+
+.testimonial .student-info {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+}
+
+.testimonial .student-info .scroll {
+    display: flex;
+    margin-top: 28px;
+    gap: 6px;
+}
+
+.testimonial .student-info .scroll-btn {
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50px;
+}
+
+.testimonial .student-info .scroll-btn:nth-child(2) {
+    background: var(--primary-color);
+}
+
+.testimonial .comment-block {
+    width: 770px;
+    height: 188px;
+    position: relative;
+}
+
+.testimonial .comment {
+    position: absolute;
+    width: 740px;
+    right: 0;
+    bottom: 0;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+}
+
+.testimonial .quote {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
