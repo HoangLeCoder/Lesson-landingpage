@@ -408,6 +408,7 @@ a {
 .testimonial {
     background-color: var(--session-bg-color);
     padding: 96px 135px;
+    margin-top: 135px;
 }
 
 .testimonial .main-content {
@@ -486,4 +487,43 @@ a {
     top: 0;
 }
 
+/* Features */
+
+.features .main-content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .image-block {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.features .image-block .feature-image {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.features .image-block .feature-image:nth-child(1) {
+    margin-top: 34px;
+}
+
+.features .feature-info {
+    margin-left: 130px;
+}
+
+.features .feature-info .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.features .feature-info .btn {
+    margin-top: 32px;
+}
 

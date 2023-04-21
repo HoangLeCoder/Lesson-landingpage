@@ -3,6 +3,8 @@
     color: #ffff;
     cursor: pointer;
 }
+
+.features .feature-info .btn:hover,
 .header .sign-up-btn:hover,
 .popular .foot .btn:hover {
     background-color: var(--primary-color);
