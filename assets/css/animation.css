@@ -3,7 +3,7 @@
     color: #ffff;
     cursor: pointer;
 }
-
+.cta .btn:hover,
 .features .feature-info .btn:hover,
 .header .sign-up-btn:hover,
 .popular .foot .btn:hover {
